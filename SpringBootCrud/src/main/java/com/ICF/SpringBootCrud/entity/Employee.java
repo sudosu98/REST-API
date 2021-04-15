@@ -35,6 +35,9 @@ public class Employee {
 		this.bloodgroup = bloodgroup;
 		this.address = address;
 	}
+	public Employee() {
+		
+	}
 	@Id
 	@GeneratedValue
 	private int id;
